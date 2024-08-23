@@ -1,0 +1,143 @@
+:root {
+  --color: antiquewhite;
+  --body: aliceblue;
+  --background: slateblue;
+  /* --background: #ff2a2a; */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  gap: 20px;
+  display: flex;
+  padding: 100px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  background: var(--body);
+
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.calculator-box {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  padding: 45px 25px 25px;
+  background: var(--color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.label {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.input {
+  border: 2px solid transparent;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 8px;
+  color: var(--background);
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input:focus {
+  border: 2px solid var(--background);
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+
+  border: 0;
+  cursor: pointer;
+  border-radius: 8px;
+
+  font-size: 20px;
+
+  color: var(--body);
+  background: var(--background);
+}
+
+.total {
+  font-size: 20px;
+  text-align: start;
+}
+
+.total-price {
+  font-size: 25px;
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    padding: 50px;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+
+  .total {
+    font-size: 15px;
+  }
+
+  .total-price {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 350px) {
+  body {
+    padding: 20px;
+  }
+  .title {
+    font-size: 18px;
+  }
+}
