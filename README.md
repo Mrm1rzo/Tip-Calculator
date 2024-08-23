@@ -5,5 +5,5 @@ Amaldagi texnologiyalar:
 1. Html
 2. Css
 3. JavaScript
-
-Ishlab chiquvchi: https://t.me/m1rzo_dev Ishlab chiqarilgan sana: 23.08.24
+Developer: https://t.me/m1rzo_dev 
+Date of manufacture: 23.08.24
