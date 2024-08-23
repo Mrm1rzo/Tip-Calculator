@@ -2,7 +2,8 @@ In this project, our aim is to build a modern tip calculator. The project's prim
 
 Amaldagi texnologiyalar:
 
-Html
-Css
-JavaScript
+1 Html
+2 Css
+3 JavaScript
+
 Ishlab chiquvchi: https://t.me/m1rzo_dev Ishlab chiqarilgan sana: 23.08.24
